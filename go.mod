@@ -2,7 +2,10 @@ module github.com/TylerTwoForks/bubbletea-tui
 
 go 1.24.1
 
-require github.com/charmbracelet/bubbletea v1.3.5
+require (
+	github.com/charmbracelet/bubbletea v1.3.5
+	github.com/mattn/go-sqlite3 v1.14.28
+)
 
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
